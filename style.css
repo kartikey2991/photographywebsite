@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 200%;
+    font-weight: 700;
+    color:#2C2C2C;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    font-family: sans-serif;
+    color: #2C2C2C;
+    font-size: 140%;
+    line-height: 180%;
+    text-align: justify;
+    font-weight: 300;
+    max-width: 100%;
+    margin-top: 2%;
+}
+img {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url("./images/railwaytrack.jpeg") no-repeat 50% 50%;
+    background-size: cover;
+    display: table;
+    top: 0;
+}
+.intro .inner
+{
+    display: table;
+    bottom: 500px;
+    width: 100%;
+    max-width: none;
+}
+.content {
+    max-width: 600px;
+    margin: auto;
+}
+h1 {
+    font-family: sans-serif;
+    font-size: 300%;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    padding: 2% 0 0 0;
+    text-shadow: 0px 0px 250px black;
+}
+.inner {
+    max-width: 600px;
+    margin: auto;
+    font-size: 170%;
+    line-height: 1.6;
+    padding: 10px;
+}
+nav {
+    float: left;
+    padding: 1% 5% 0 1%;
+    height: 50px;
+}
+nav ul {
+    list-style: none;
+    float: left;
+}
+nav ul li {
+    font-family: sans-serif;
+    font-size: 120%;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+nav ul, nav:active ul {
+    display: none;
+    padding: 8px 0;
+    width: 20%;
+    z-index: 1000;
+}
+nav li {
+    width: 100%;
+    padding: 8px 0 10px 7px;
+    margin: 0;
+}
+nav:hover ul {
+    display: block;
+    position: absolute;
+}
+#menu-icon {
+    width: 30px;
+    height: 26px;
+    background: url("./images/nav-icon.png") center;
+    display: inline-block;
+    margin: 5px 0 0 5px;
+}
+.left-col {
+    width: 55%;
+    float: left;
+    margin: 4% 0 4% 4%;
+}
+.photo  {
+    text-align: center;
+}
+.chitra  {
+    text-align: center;
+    color: #2C2C2C;
+}
+.sidebar {
+    width: 30%;
+    float: left;
+    margin: 4%;
+}
+.one-third-port img {
+    height: 400px;
+    width: 400px;
+}
+.one-third-port {
+    width: 32%;
+    padding: 1%;
+    float: left;
+}
+.progress-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 10px 10px;
+}
+.progress{
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    background: #f0f0f0;
+    margin-bottom: 30px;
+    box-shadow: none;
+    overflow: visible;
+}
+ .progress .progress-bar{
+    position: relative;
+    border-radius: 20px 0 0 20px;
+}
+#progress-value{
+    font-size: 30px;
+    color: black;
+    position: relative;
+    right: -1280px;
+}
+.do 
+{
+    font-family: sans-serif;
+    font-size: 150%;
+    font-weight: 500;
+    margin: 0 0 0 2%;
+}
+.clearfix {
+    clear: both;
+    height: 3%;
+}
+.parallax {
+    background: url("./images/skyline_crop.jpg") no-repeat fixed 100%;
+    opacity: 0.5;
+    background-size: 1550px; 
+}
+.parallax-inner {
+    padding-top: 25%;
+}
+.social {
+    list-style-type: none;
+    text-align: center;
+}
+.social li {
+    display: inline;
+}
+.icon {
+    display: inline;
+    margin: 1% 5% 7% 4%;
+}
