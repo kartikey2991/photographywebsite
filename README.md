@@ -1,6 +1,11 @@
-# Photographywebsite
+# Photography website
 
 <b>Check it out :fire:<a href=https://kartikey2991.github.io/photographywebsite/>HERE</a></b>:fire:.
+
+
+# About
+
+Being a photographer, it is important to showcase my skills to my client and to give them a idea what I shoot and how I shoot. So this website solves the purpose.
 
 ## Technology Stack used:
 
